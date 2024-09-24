@@ -1,2 +1,2 @@
 # my personal github pages portfolio
-https://hunterwellis.github.io/Portfolio-Website/
+[ellishw.tech](ellishw.tech)
