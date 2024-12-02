@@ -40,13 +40,6 @@
 
       <!-- PROJECT HEADER -->
       <div id="project-header">
-          <!-- 
-            TODO
-
-            - Change the 'main-title' text to the name of your project
-            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
-            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
-          -->
         <div class="main-title">Budget Reflow Oven</div>
         <div class="body-text">Building a reflow oven on a budget.</div>
         <image class="project-header-image" src="../assets/images/oven_desk.jpg">
@@ -62,8 +55,7 @@
       <div id="project-details">
         <div class="subheader-text">Project Details / Background</div>
         <div class="project-details-content">
-          <div class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.</div>
-          <div class="body-text">Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut.</div>
+          <div class="body-text">A reflow oven I built during my Sophmore summer as an Undergraduate at Virginia Tech to surface mount SMD components onto PCBs. The oven uses a solid-state relay to regulate the temperature of the oven and fiberglass insulation to reduce the thermal loss. The whole system is controlled by an STM32F103C8 development board controlling the solid-state relays duty cycle via pulse-width-modulation allowing the system to follow a reflow profile. The heating elements were wired in a 2P2S configuration and I set a hard cap for the solid-state relay at around a 40% duty cycle &ndash; this could probably be raised to increase performance, but a 30% duty cycle met my needs and didn't melt the housing of the oven.</div>
         </div>
       </div>
 
@@ -72,36 +64,21 @@
         <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
         <div class="subheader-text">Image Gallery</div>
         <div class="project-gallery-content">
-            <!-- 
-              TODO
-
-              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
-
-              Full Width Image:
-
-                <div class="gallery-image-container">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
-                </div>
-
-              Half Width Image: 
-
-                <div class="gallery-image-container half-width">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
-                </div>
-
-              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
-                  - IMAGE_NAME: the name of the image file in assets/images
-                  - IMAGE_CAPTION: to the caption of the image
-            -->
             <div class="gallery-image-container">
               <img src="../assets/images/oven_chair.jpg" class="gallery-image">
               <span class="image-caption">Testing </span>
             </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/oven_data_control.png" class="gallery-image">
+              <span class="image-caption">Control temperature data (no insulation, no solid-state relay).</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/oven_data_augmented.png" class="gallery-image">
+              <span class="image-caption">Temperature data (insulation, solid-state relay at constant 30% duty cycle).</span>
+            </div>
             <div class="gallery-image-container">
               <img src="../assets/images/oven.jpg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
+              <span class="image-caption">Insulation added to the inside of oven.</span>
             </div>
         </div>
       </div>
