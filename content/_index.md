@@ -30,7 +30,7 @@ Checkout my [projects](./projects) and [blog posts](./posts).
             <!--<img src="assets/images/VT.png" height="100" width="100">-->
           </div>
           <div class="text">
-            Currently, I am working on my Master's thesis in multi-task reinforcement learning for robotics applications.
+            Currently, I am working on my Master's thesis focusing on control theory.
           </div>
         </div>
       </div>

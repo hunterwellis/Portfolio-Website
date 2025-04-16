@@ -22,11 +22,9 @@ I am a <span id="ageDisplay"></span> year old Electrical & Computer Engineer who
 
 # Pictures
 
-<div>
-    <img src="about_pfp.jpg" alt="welding picture" style="float:left; display: block; margin: 5 5; height: 300px;">
-    <img src="boat_sit.jpg" alt="boat picture" style="float:left; display: block; margin: 5 5; height: 300px;">
-    <img src="fastrac.jpg" alt="fastrac picture" style="float:left; display: block; margin: 5 5; height: 300px;">
-</div>
+<img src="about_pfp.jpg" alt="welding picture" style="float:left; display: block; margin: 5 5; height: 300px;">
+<img src="boat_sit.jpg" alt="boat picture" style="float:left; display: block; margin: 5 5; height: 300px;">
+<img src="fastrac.jpg" alt="fastrac picture" style="float:left; display: block; margin: 5 5; height: 300px;">
 
 <div style="clear: both;"></div>
 
